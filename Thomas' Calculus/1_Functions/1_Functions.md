@@ -161,19 +161,19 @@ For $x\in {D(f)}\cap{D(g)},g(x)\neq0$
 
 The domain of $f\circ g$ consists of the numbers $x$ in the domain of $g$ for which $g(x)$ lies in the domain of $f$.
 
-$f\circ g$的域由g的域中使$g(x)$位于$f$的域构成。
+$f\circ g$的域由g的域中使 $g(x)$ 位于$f$的域构成。
 
 - The definition implies that $f \circ g$ can be formed when the range of $g$ lies in the domain of ƒ. 
   
-  该定义意味着，当$g$的范围位于$f$的域中时，可以形成$f \circ g$。
+  该定义意味着，当$g$的范围位于 $f$ 的域中时，可以形成 $f \circ g$ 。
 
 - To find $(f \circ g)(x)$, first find $g(x)$ and second find $f(g(x))$.
   
-  要求$(f \circ g)(x)$，先求$g(x)$， 再求$f(g(x))$。
+  要求 $(f \circ g)(x)$，先求 $g(x)$， 再求 $f(g(x))$。
 
-- The functions $f \circ g$ and $g \circ f$are usually quite different.
+- The functions $f \circ g$ and $g \circ f$ are usually quite different.
   
-  $f \circ g$ 和$g \circ f$是完全不同的。
+  $f \circ g$ 和 $g \circ f$ 是完全不同的。
 
 &emsp;
 
@@ -203,7 +203,7 @@ $f\circ g$的域由g的域中使$g(x)$位于$f$的域构成。
     
     水平压缩c倍图像
   
-  - $$y=f(\frac{x}{c})$, Stretches the graph of ƒ horizontally by a factor of c.
+  - $y=f(\frac{x}{c})$ , Stretches the graph of ƒ horizontally by a factor of c.
     
     水平拉伸c倍图像
 
@@ -273,7 +273,7 @@ When an angle of measure $\theta$ and an angle of measure $\theta + 2\pi$ or $\t
 
 The two angles therefore have the same trigonometric function values.
 
-当一个度量为$\theta$的角和一个度量为$\theta + 2\pi$ 或 $\theta - 2\pi$的角处于标准位置时，它们的末端射线重合。
+当一个度量为 $\theta$ 的角和一个度量为 $\theta + 2\pi$ 或 $\theta - 2\pi$ 的角处于标准位置时，它们的末端射线重合。
 
 因此，这两个角的三角函数值相同。
 
@@ -307,7 +307,7 @@ $\because x^2+y^2=r^2=r^2\cos^2\theta+r^2\sin^2\theta$
 
 $\because \cos^2\theta+\sin^2\theta=1$
 
-$ \therefore \frac{\cos^2\theta+\sin^2\theta}{\cos^2\theta}=\frac{1}{\cos^2\theta}, \frac{\cos^2\theta+\sin^2\theta}{\sin^2\theta}=\frac{1}{\sin^2\theta}$
+ $ \therefore \frac{\cos^2\theta+\sin^2\theta}{\cos^2\theta}=\frac{1}{\cos^2\theta}, \frac{\cos^2\theta+\sin^2\theta}{\sin^2\theta}=\frac{1}{\sin^2\theta}$
 
 $\therefore 1 + \tan^2\theta = \sec^2\theta, 1 + \cot^2\theta = \csc^2\theta$
 
