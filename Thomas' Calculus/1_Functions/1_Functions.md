@@ -129,6 +129,16 @@ The names even and odd come from powers of x
 
 - **Transcendental Function** 超越函数
 
+&emsp;
+
+##### Exercise
+
+###### 1. $G(t)=\frac{2}{t^2-16}$ domain and range P30.6
+
+###### 2. 30.11
+
+###### 3. 31.13
+
 ---
 
 #### 1.2. Combining Functions; Shifting and Scaling Graphs
@@ -211,6 +221,180 @@ $f\circ g$的域由g的域中使$g(x)$位于$f$的域构成。
 
 ---
 
-#### Trigonometric Functions
+#### 1.3. Trigonometric Functions
 
+**Six Basic Trigonometric Functions** 六个基本三角函数
 
+<img title="" src="./1/1.10.png" alt="" width="267" data-align="center">
+
+- $\sin \theta = \frac{opp}{hyp}$
+
+- $\cos \theta = \frac{adj}{hyp}$
+
+- $\tan \theta = \frac{opp}{adj}=\frac{\sin \theta}{\cos \theta}$
+
+- $\csc \theta = \frac{hyp}{opp} = \frac{1}{\sin \theta}$
+
+- $\sec \theta = \frac{hyp}{adj} = \frac{1}{\cos \theta}$
+
+- $\cot \theta = \frac{adj}{opp} = \frac{1}{\tan \theta}$
+
+&emsp;
+
+We extend this definition to obtuse and negative angles.
+
+我们将这一定义扩展到钝角和负角。
+
+<img title="" src="./1/1.11.png" alt="" width="215" data-align="center">
+
+- $\sin \theta = \frac{y}{r}$
+
+- $\cos \theta = \frac{x}{r}$
+
+- $\tan \theta = \frac{y}{x}=\frac{\sin \theta}{\cos \theta}$
+
+- $\csc \theta = \frac{r}{y} = \frac{1}{\sin \theta}$
+
+- $\sec \theta = \frac{r}{x} = \frac{1}{\cos \theta}$
+
+- $\cot \theta = \frac{x}{y} = \frac{1}{\tan \theta}$
+
+&emsp;
+
+**The ASTC(All Student Take Calculus) rule** is useful for remembering when the basic trigonometric functions are positive or negative.
+
+<img title="" src="./1/1.12.png" alt="" width="248" data-align="center">
+
+<img title="" src="./1/1.13.png" alt="" width="671">
+
+&emsp;
+
+When an angle of measure $\theta$ and an angle of measure $\theta + 2\pi$ or $\theta - 2\pi$ are in standard position, their terminal rays coincide. 
+
+The two angles therefore have the same trigonometric function values.
+
+当一个度量为$\theta$的角和一个度量为$\theta + 2\pi$ 或 $\theta - 2\pi$的角处于标准位置时，它们的末端射线重合。
+
+因此，这两个角的三角函数值相同。
+
+| Period |                       |
+| ------ | --------------------- |
+| $\pi$  | $\tan \cot$           |
+| $2\pi$ | $\sin \cos \sec \csc$ |
+
+&emsp;
+
+<img src="./1/1.14.png" title="" alt="" data-align="center">
+
+![](./1/1.15.png)
+
+| Even/Odd |                       |
+| -------- | --------------------- |
+| Even     | $\cos \sec$           |
+| Odd      | $\sin \tan \csc \cot$ |
+
+&emsp;
+
+$\because \sin \theta=\frac{y}{r}, \cos \theta = \frac{x}{r}$
+
+$\therefore x=r\cos\theta, y=r\sin\theta$
+
+$\because x^2+y^2=r^2=r^2\cos^2\theta+r^2\sin^2\theta$
+
+**$\therefore \cos^2\theta+\sin^2\theta=1$**
+
+&emsp;
+
+$\because \cos^2\theta+\sin^2\theta=1$
+
+$ \therefore \frac{\cos^2\theta+\sin^2\theta}{\cos^2\theta}=\frac{1}{\cos^2\theta}, \frac{\cos^2\theta+\sin^2\theta}{\sin^2\theta}=\frac{1}{\sin^2\theta}$
+
+$\therefore 1 + \tan^2\theta = \sec^2\theta, 1 + \cot^2\theta = \csc^2\theta$
+
+&emsp;
+
+$\cos(A+B)=\cos A \cos B - \sin A \sin B$
+
+$\cos(A-B)=\cos A \cos B + \sin A \sin B$
+
+$\sin(A+B)=\sin A \cos B + \cos A \sin B$
+
+$\sin(A-B)=\sin A \cos B - \cos A \sin B$
+
+&emsp;
+
+When $A=B=\theta$
+
+$\cos 2\theta = \cos^2\theta-\sin^2\theta$
+
+$\sin 2\theta=2\sin\theta\cos\theta$
+
+&emsp;
+
+$\because \cos^2\theta+\sin^2\theta=1, \cos^2\theta-\sin^2\theta=\cos 2\theta$
+
+$\therefore \cos^2\theta=\frac{1+\cos 2\theta}{2}, \sin^2\theta=\frac{1-\cos 2\theta}{2}$
+
+&emsp;
+
+**The Law of Cosines** 余弦定律
+
+<img title="" src="./1/1.16.png" alt="" width="339" data-align="center">
+
+- The coordinates of B, because $x=r\cos\theta, y=r\sin\theta$ , is $(a\cos\theta, a\sin\theta)$
+  
+  确定B点坐标
+
+- $\because (b-a\cos\theta)^2 + (a\sin\theta)^2 = c^2$
+  
+  $\therefore b^2 - 2ab\cos\theta+a^2\cos^2\theta + a^2\sin^2\theta=c^2$
+  
+  $\because \cos^2\theta+\sin^2\theta=1$
+  
+  $\therefore c^2=a^2+b^2-2ab\cos\theta$
+
+&emsp;
+
+$-|\theta|\leq \sin\theta \leq |\theta|$
+
+$-|\theta| \leq 1-\cos\theta \leq |\theta|$
+
+<img title="" src="./1/1.17.png" alt="" width="271" data-align="center">
+
+- $\theta$ is the length of the unit circular arc AP, The length of line segment AP is therefore less than $\theta$
+  
+  $\theta$是单位圆中弧AP的长度，线段AP的长度小于$|\theta|$
+
+- $\because x=r\cos\theta, y=r\sin\theta$, the coordinates of P is $(\cos\theta, \sin\theta), OQ=\cos\theta, QP=\sin\theta, QA=1-\cos\theta$ 
+  
+  $\therefore \sin^2\theta + (1-\cos\theta)^2 = {AP}^2 \leq |\theta|$
+  
+  $\therefore \sin^2\theta\leq\theta^2, (1-\cos^2\theta)^2\leq\theta^2$
+  
+  $\therefore |\sin\theta|\leq|\theta|, |1-\cos\theta|\leq|\theta|$
+  
+  $\therefore -|\theta|\leq \sin\theta \leq |\theta|, -|\theta| \leq 1-\cos\theta \leq |\theta|$
+
+&emsp;
+
+**Transformations of Trigonometric Graphs** 三角函数图形的变换
+
+$y=af(b(x+c))+d$
+
+- a: Vertical stretch or compression; reflection about $y = d$ if negative, like **amplitude**
+  
+  垂直拉伸或压缩；如果是负值，则关于$y=d$的反射, 类似**振幅**
+
+- b: Horizontal stretch or compression;reflection about $x = -c$ if negative, like **period**
+  
+  水平拉伸或压缩；如果是负值，则关于$x=-c$的反射，类似**周期**
+
+- c: Horizontal shift
+  
+  水平移动
+
+- d: Vertical shift
+  
+  垂直移动
+
+---
