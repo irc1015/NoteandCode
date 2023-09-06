@@ -307,7 +307,7 @@ $\because x^2+y^2=r^2=r^2\cos^2\theta+r^2\sin^2\theta$
 
 $\because \cos^2\theta+\sin^2\theta=1$
 
- $ \therefore\frac{\cos^2\theta+\sin^2\theta}{\cos^2\theta}=\frac{1}{\cos^2\theta}$ 
+ $\therefore\frac{\cos^2\theta+\sin^2\theta}{\cos^2\theta}=\frac{1}{\cos^2\theta}$ 
 
       $\frac{\cos^2\theta+\sin^2\theta}{\sin^2\theta}=\frac{1}{\sin^2\theta}$
 
