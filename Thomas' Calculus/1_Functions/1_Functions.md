@@ -161,11 +161,11 @@ For $x\in {D(f)}\cap{D(g)},g(x)\neq0$
 
 The domain of $f\circ g$ consists of the numbers $x$ in the domain of $g$ for which $g(x)$ lies in the domain of $f$.
 
-$f\circ g$的域由g的域中使 $g(x)$ 位于$f$的域构成。
+$f\circ g$的域由g的域中使 $g(x)$ 位于 $f$ 的域构成。
 
 - The definition implies that $f \circ g$ can be formed when the range of $g$ lies in the domain of ƒ. 
   
-  该定义意味着，当$g$的范围位于 $f$ 的域中时，可以形成 $f \circ g$ 。
+  该定义意味着，当 $g$ 的范围位于 $f$ 的域中时，可以形成 $f \circ g$ 。
 
 - To find $(f \circ g)(x)$, first find $g(x)$ and second find $f(g(x))$.
   
@@ -307,7 +307,7 @@ $\because x^2+y^2=r^2=r^2\cos^2\theta+r^2\sin^2\theta$
 
 $\because \cos^2\theta+\sin^2\theta=1$
 
- $ \therefore \frac{\cos^2\theta+\sin^2\theta}{\cos^2\theta}=\frac{1}{\cos^2\theta}, \frac{\cos^2\theta+\sin^2\theta}{\sin^2\theta}=\frac{1}{\sin^2\theta}$
+ $ \therefore\frac{\cos^2\theta+\sin^2\theta}{\cos^2\theta}=\frac{1}{\cos^2\theta},\frac{\cos^2\theta+\sin^2\theta}{\sin^2\theta}=\frac{1}{\sin^2\theta}$
 
 $\therefore 1 + \tan^2\theta = \sec^2\theta, 1 + \cot^2\theta = \csc^2\theta$
 
@@ -363,7 +363,7 @@ $-|\theta| \leq 1-\cos\theta \leq |\theta|$
 
 - $\theta$ is the length of the unit circular arc AP, The length of line segment AP is therefore less than $\theta$
   
-  $\theta$是单位圆中弧AP的长度，线段AP的长度小于$|\theta|$
+  $\theta$是单位圆中弧AP的长度，线段AP的长度小于 $|\theta|$
 
 - $\because x=r\cos\theta, y=r\sin\theta$, the coordinates of P is $(\cos\theta, \sin\theta), OQ=\cos\theta, QP=\sin\theta, QA=1-\cos\theta$ 
   
@@ -383,11 +383,11 @@ $y=af(b(x+c))+d$
 
 - a: Vertical stretch or compression; reflection about $y = d$ if negative, like **amplitude**
   
-  垂直拉伸或压缩；如果是负值，则关于$y=d$的反射, 类似**振幅**
+  垂直拉伸或压缩；如果是负值，则关于 $y=d$ 的反射, 类似**振幅**
 
 - b: Horizontal stretch or compression;reflection about $x = -c$ if negative, like **period**
   
-  水平拉伸或压缩；如果是负值，则关于$x=-c$的反射，类似**周期**
+  水平拉伸或压缩；如果是负值，则关于 $x=-c$ 的反射，类似**周期**
 
 - c: Horizontal shift
   
